@@ -6,16 +6,17 @@ export const Container = styled.div`
 `
 export const Inner = styled.div`
     display: flex;
-    paddind: 70px 45px;
-    max-width: 815px;
+    padding: 70px 45px;
     flex-direction: column;
-
+    max-width: 815px;
     margin: auto;
 `
 export const Item = styled.div`
     color: white;
+    margin: auto;
     margin-bottom: 10px;
-    max-width: 670px;
+    max-width: 728px;
+    width: 100%;
     &:first-of-type {
         margin-top: 3em;
     }
@@ -58,9 +59,7 @@ export const Body = styled.div`
         line-height: 22px;
     }
 `
-export const Frame = styled.div`
-    margin-bottom: 40px;
-`
+
 export const Title = styled.h1`
     font-size: 50px;
     line-height: 1.1;
